@@ -36,11 +36,9 @@ body {
   &__items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-<<<<<<< HEAD
+
     grid-template-rows: repeat(1, 1fr);
-=======
-    grid-template-rows: repeat(2, 1fr);
->>>>>>> ff862c97ad7e5caa19c5a28b77a4b9c2f6773e65
+
     grid-column-gap: 11px;
 
     @media (max-width: 1400px) {
